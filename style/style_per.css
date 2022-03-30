@@ -108,16 +108,19 @@ body {
     flex-flow: row wrap;
     justify-content: space-around;
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     margin-top: 13%;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #F7F7F7 ;
 }
 
 .question-2{
   font-size: 15px;
   font-weight: 200;
+  padding-top: 196px;
+
+
 }
 
 .sideleft {
@@ -133,8 +136,8 @@ body {
 }
 
 .scroll {
-    padding-left: 40%;
-    font-size: 12px;
+    padding-left: 42%;
+    font-size: 10px;
     color: white;
 }
 
