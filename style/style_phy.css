@@ -15,7 +15,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: 'Montserrat', sans-serif;}
 
 body {
-    background-color: #333333 !important;
+    background-color: #232222 !important;
     display: block;
 }
 
@@ -209,7 +209,7 @@ img {
   font-weight: 900;
   font-size: 40px;
   margin: 0 0 6px 0px;
-  color: #F7F7F7;
+  color: #d6d4d4;
 }
 h3{
   font-size: 12px;
@@ -226,7 +226,7 @@ h4 {
   padding: 3px 0px 5px 0;
   font-style: normal;
   line-height: 1.3em;
-  color: #ffffff;
+  color: #d6d4d4;
 }
 
 
@@ -235,7 +235,7 @@ h4 {
     font-size: 20px;
     font-weight: 200;
     margin-bottom: .5em;
-    color: #F7F7F7;
+    color: #d6d4d4;
 }
 
 .guide{
