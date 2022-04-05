@@ -217,7 +217,7 @@ color: #B2AEAE;
     right: 645px;
     font-size: 15px;
     font-weight: 300;
-    color: #B2AEAE;
+    color: #807f7f;
     position: relative;
     float: right;
 }
@@ -234,7 +234,7 @@ color: #B2AEAE;
     float: left;
     font-size: 15px;
     font-weight: 300;
-    color: #B2AEAE;
+    color: #807f7f;
 }
 
 #f1-labels, #f2-labels, #f3-labels, #f4-labels, #f5-labels, #f6-labels, #f7-labels, #f8-labels{
@@ -382,7 +382,7 @@ img {
 .charts-guide {
     font-size: 15px;
     font-weight: 300;
-    color: #B2AEAE;
+    color: #d6d4d4;
 }
 
 .holder{
@@ -411,7 +411,7 @@ img {
 .headerline {
     position: relative;
     border-bottom: solid 1px;
-    border-color: #bfbfbf;
+    border-color: #807f7f;
     width: 180px;
     display: flex;
     align-items: center;
@@ -443,7 +443,7 @@ h4 {
   padding: 3px 0px 5px 0;
   font-style: normal;
   line-height: 1.3em;
-  color: #d6d4d4;
+  color: #807f7f;
 }
 
 
@@ -458,7 +458,7 @@ h4 {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 1em;
-    color: #B2AEAE;
+    color: #807f7f;
 }
 
 .value {

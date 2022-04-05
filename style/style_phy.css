@@ -164,7 +164,7 @@ img {
 .charts-guide {
     font-size: 15px;
     font-weight: 300;
-    color: #B2AEAE;
+    color: #d6d4d4;
 }
 
 .holder{
@@ -193,7 +193,7 @@ img {
 .headerline {
     position: relative;
     border-bottom: solid 1px;
-    border-color: #bfbfbf;
+    border-color: #807f7f;
     width: 180px;
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@ h4 {
   padding: 3px 0px 5px 0;
   font-style: normal;
   line-height: 1.3em;
-  color: #d6d4d4;
+  color: #807f7f;
 }
 
 
@@ -242,7 +242,7 @@ h4 {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: .8em;
-    color: #B2AEAE;
+    color: #807f7f;
 }
 
 .value {
@@ -276,7 +276,7 @@ fill: #F7F7F7;
    right: 645px;
     font-size: 15px;
     font-weight: 300;
-    color: #B2AEAE;
+    color: #807f7f;
     position: relative;
     float: right;
 }

@@ -454,7 +454,7 @@ function initialize() {
           if(labeltext === 'positive'){
         return "very independent"
        }else if (labeltext === 'negative') {
-        return "eager to please" }
+        return "eager to please people" }
         else if (labeltext === 'any') {
         return d3.select('#f4-labels').remove() }
         });
@@ -608,34 +608,6 @@ d3.select("#all").on('click', function(){
 
     })
 
-
-/*function labels(d){
-
-d3.select('.labels')
-  .remove();
-
-if 
-d3.selectAll("#f1 .button").on("click", function() {
-        selectedFactor1 = d3.select(this).attr("value");
-        var d = selectedFactor1
-        console.log(d);
-        d3.select('#labels')
-        .append("text")
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("fill", "white")
-        .text(function(d){if(d === 'any'){
-          console.log(d);
-        return test1
-       }else if (d === 'positive') {
-        return test2
-       }else if (d === 'negative') {
-        return test3}
-        });
-
-
-
-}*/
 
   
 d3.csv("./data/factor_data.for_viz.frac_gt_withZeros.csv", function(err, test) {
