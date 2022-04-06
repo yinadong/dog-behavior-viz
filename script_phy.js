@@ -157,7 +157,7 @@ function updatepath(d) {
              .append("path")
              //.attr('class','nes-container is-dark with-title')
              .attr('class','path')
-             .style("stroke", `#bfbfbf`) //#bfbfbf
+             .style("stroke", `#807f7f`) 
              .style("fill", "none")
              .style("stroke-width", `1px`)
 

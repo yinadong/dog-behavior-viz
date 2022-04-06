@@ -30,66 +30,6 @@ var selectedFactor7 = "any";
 var selectedFactor8 = "any";
 
 
-/*var fixmeTop = $('#right1').offset().top;
-$(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
-    if (currentScroll >= fixmeTop) {
-        $('#right1').css({
-            position: 'relative',
-            top: '10px',
-            left: '0'
-        });
-    } else {
-        $('#right1').css({
-  position: 'sticky',
-   top: '0px',
-        });
-    }
-});
-
-var fixmeTop = $('#right1').offset().top;
-$(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
-    if (currentScroll >= fixmeTop) {
-        $('.left-fix').addClass('add-text'){
-            color:'red',
-            position: 'relative',
-            top: '0',
-            left: '0'
-        };
-    } else {
-        $('.left-fix').removeClass('add-text'){
-        };
-    }
-});
-
-$(document).ready(function() {
-  $(window).scroll(function(){
-      if ($(this).scrollTop() > 50) {
-         $('.left-fix')//.addClass('add-text')
-                       .append("div")
-        .attr("id", "add-labels")
-        .append("text")
-        .attr("x", 0)
-        .attr("y", 0)
-        .text("hahahah")
-        .attr("fill", "white");
-      } else {
-         //$('.left-fix').removeClass('add-text');
-         $('#add-labelsadd').remove();
-      }
-  });
-});*/
-
-/*
-<button class="scroll-me"><img class="reset-img"src="./img/reset.png" width="18" height="18"></button>
-$(document).ready(function(){
-$( ".scroll-me" ).click(function() {
-    var x = $(window).scrollTop();
-    $(window).scrollTop(x+650);
-  });
-});*/
-
 function initializeData() {
   data = data.map(function(d) {
     return {
@@ -217,7 +157,7 @@ function updatepath(d) {
              .append("path")
              //.attr('class','nes-container is-dark with-title')
              .attr('class','path')
-             .style("stroke", `#bfbfbf`) //#bfbfbf
+             .style("stroke", `#807f7f`) 
              .style("fill", "none")
              .style("stroke-width", `1px`)
 
